@@ -1,0 +1,137 @@
+html {
+  background: url(../img/bg.jpg) no-repeat fixed top;
+  background-size: cover; }
+
+body,
+header,
+main {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: none; }
+
+/* Main */
+main {
+  margin-top: 50px; }
+
+/* Navbar */
+.navbar {
+  margin: 30px 0 0 0; }
+
+.navbar-default {
+  background: transparent;
+  border: none; }
+
+.navbar-nav > li {
+  margin: 0 10px;
+  border: 1px solid transparent; }
+
+.navbar-nav > li:hover {
+  border: 1px solid #fff;
+  border-radius: 5px; }
+
+.navbar-brand {
+  color: white !important; }
+
+.navbar-nav > li > a {
+  color: white !important; }
+
+/*  Highlight */
+.highlight {
+  margin: 20px auto;
+  height: 200px;
+  text-align: center;
+  color: #eee;
+  line-height: 150%; }
+  .highlight h1 {
+    font-size: 500%;
+    word-spacing: 65px;
+    line-height: 150%; }
+  .highlight h4 {
+    margin-top: 10px;
+    word-spacing: 30px;
+    line-height: 150%; }
+
+/* About section */
+.about {
+  background: #31708f;
+  margin: 100px 0px 0px;
+  padding: 40px; }
+  .about img {
+    height: 350px;
+    width: 350px;
+    transition: transform 1s;
+    border-radius: 10px; }
+  .about h4 {
+    padding: 20px;
+    color: #fff;
+    text-align: justify;
+    line-height: 27px; }
+  .about .about-description {
+    height: 335px;
+    margin: 10px 0 0;
+    background: #555;
+    border-radius: 10px; }
+
+/* Portfolio section */
+.portfolio {
+  background: #444;
+  margin: 30px 0px 0px;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 30px; }
+  .portfolio .pf-title {
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px gray;
+    font-size: 300%; }
+
+.pf {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .pf .pf-item {
+    margin: 30px;
+    padding: 10px; }
+  .pf .pf-item img {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    transition: transform 1s; }
+  .pf .pf-item img:hover {
+    transform: scale(1.1, 1.1); }
+
+/*Contact section*/
+.contact {
+  background: #3c763d;
+  width: 100%;
+  height: auto;
+  margin: 50px 0px 0px;
+  padding: 20px; }
+  .contact .social-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+  .contact .icon {
+    margin: 20px; }
+    .contact .icon i {
+      color: #fff; }
+  .contact .c-title {
+    color: #ccc;
+    text-align: center;
+    text-shadow: 3px 3px gray; }
+
+/* Footer */
+footer {
+  background: #333;
+  margin: 30px 0 -20px;
+  height: auto;
+  width: 100%;
+  padding: 10px; }
+  footer h3 {
+    text-align: center;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
