@@ -82,7 +82,7 @@ main {
   width: 100%;
   height: auto;
   padding: 30px; }
-  .portfolio .pf-title {
+  .portfolio .pf-head {
     color: #fff;
     text-align: center;
     text-shadow: 3px 3px gray;
@@ -94,14 +94,44 @@ main {
   justify-content: center; }
   .pf .pf-item {
     margin: 30px;
-    padding: 10px; }
-  .pf .pf-item img {
-    height: 250px;
-    width: 250px;
-    margin: 10px;
-    transition: transform 1s; }
-  .pf .pf-item img:hover {
-    transform: scale(1.1, 1.1); }
+    padding: 10px;
+    position: relative;
+    text-align: center; }
+    .pf .pf-item img {
+      height: 250px;
+      width: 250px;
+      margin: 10px;
+      transition: transform 1s; }
+    .pf .pf-item .pf-info {
+      display: none;
+      border-radius: 10px;
+      height: 290px;
+      width: 290px;
+      background: #337ab7;
+      padding: 10px;
+      color: #eee;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .pf .pf-item .pf-info h2 {
+        margin: 5px auto 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 100%;
+        padding: 0 0 7px; }
+      .pf .pf-item .pf-info h4 {
+        margin: 40px 0 5px; }
+      .pf .pf-item .pf-info p {
+        margin: 20px auto; }
+      .pf .pf-item .pf-info .pf-tools {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        .pf .pf-item .pf-info .pf-tools span {
+          font-size: 90%;
+          border-radius: 5px;
+          border: 1px solid #fff;
+          padding: 5px;
+          margin: 5px; }
 
 /*Contact section*/
 .contact {
