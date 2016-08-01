@@ -46,7 +46,7 @@ color: white !important;
 
 /*  Highlight */
 .highlight {
-margin: 20px auto;
+margin: 20px auto 70px;
 height: 200px;
 text-align: center;
 color: #eee;
@@ -79,12 +79,13 @@ h4 {
 padding: 20px;
 color: #fff;
 text-align: justify;
-line-height: 27px;
+line-height: 35px;
+word-spacing: 5px;
 }
 .about-description {
 height: 335px;
 margin: 10px 0 0;
-background: #555;
+background: #333;
 border-radius: 10px;  
 }
 }
