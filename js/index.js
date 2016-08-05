@@ -189,6 +189,13 @@ $(document).ready(function() {
       scrollTop: $("#portfolio").offset().top
     }, "slow");
   });
+
+  //scrolls upto about 
+  $("#to-a").click(function() {
+    $("body").animate({
+      scrollTop: $("#about").offset().top
+    }, "slow");
+  });
   
   //scrolls upto contact
   $("#to-c").click(function() {

@@ -1,100 +1,54 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Ramesh syangtan</title>
-  <meta name="keywords" content="Ramesh syangtan, Ramesh , syangtan, rameshsyn, ramesh_syn, aryes">
-  <meta name="description" content="Ramesh Syangtan - Coder, Teacher, Traveller! Welcome to my World !!!">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="canonical" href="https://rameshsyangtan.com.np"/>         
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="css/style.css">  
-  <script src="https://use.fontawesome.com/bc20159c52.js"></script>  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-81431879-1', 'auto');
-  ga('send', 'pageview');
-</script>
-</head>
-<body>
-  <!-- ============== HEADER SECTION ======= -->
-  <header>
-    <div class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#rs-navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="https://rameshsyangtan.com.np">Ramesh Syangtan </a>
-        </div>
-        <div class="collapse navbar-collapse navbar-right" id="rs-navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="https://rameshsyangtan.com.np">Home</a></li>
-            <li><a href="#portfolio" id="to-pf">Portfolio</a></li>
-            <li><a href="https://rameshsyangtan.com.np/blog.html">Blog</a></li>
-            <li><a href="#contact" id="to-c">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <!-- ========= Highlight ========== -->
-    <div class="container">
-      <div class="highlight">
-        <h1>Ramesh Syangtan</h1>
-        <h4>Coder | Teacher | Traveller</h4>
-      </div>
-    </div>
+---
+layout: default
+---
 
+
+<main>
+  <!-- ========= HIGHLIGHT ========== -->
+  <div class="container">
+    <div class="highlight">
+      <h1>{{site.data.global.title}}</h1>
+      <h4>Coder | Teacher | Traveller</h4>
+    </div>
+  </div>
+  <!-- ======== LATEST POST ======== -->
+  <div class="latest-post">
+    <h1 class="ls-title">Latest post </h1>
+    <div class="container">
+      {% include latest-post.htm %}
+    </div>
+  </div>
+  
   <!-- ========== PORTFOLIO SECTION ======= -->
   <div class="portfolio" id="portfolio">
     <h1 class="pf-head"> Projects </h1>
     <div class="container pf"></div>
   </div>
   <!-- ========= ABOUT SECTION ======== -->
-    <div class="about">
-      <div class="container" id="about">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-4" >
-           <img src="img/rameshsyangtan.jpg" alt="Ramesh syangtan" class="img-responsive">
-         </div>
-         <div class="col-xs-12 col-sm-8 col-md-8 about-description"> 
-          <h4>
-            Greeting! My name is Ramesh Syangtan. I live in Bhaktapur, Nepal (Historical place of Nepal).
-            I am teacher at Aryes Educational Institute. I have been teaching since 2014. Along with teaching
-            I started learning to code, made some apps. Currently, I'm Learning, doing projects, helping others, and gaining confident
-            on my skill at <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a>. Apart from coding and teaching, I'd love to
-            travel new places, explore things of science and technology, listening to music and Watching movies.
+  <div class="about">
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4" >
+         <img src="{{ site.data.global.author.profile_img }}" alt="{{site.data.global.author.name}}" class="img-responsive">
+       </div>
+       <div class="col-xs-12 col-sm-8 col-md-8 about-description"> 
+        <h4>
+          {{ site.data.global.author.about }}
 
-          </h4>
-        </div>
+        </h4>
       </div>
     </div>
   </div>
-  <!-- ========== CONTACT SECTION ======= -->
-  <div class="contact" id="contact">
-    <h1 class="c-title">Stay in Touch !</h1>
-    <div class="container social-icons">
-      <a href="https://facebook.com/rameshsyn" class="icon"><i class="fa fa-facebook-official fa-4x"></i></a>
-      <a href="https://twitter.com/ramesh_syn" class="icon"><i class="fa fa-twitter fa-4x"></i></a>
-      <a href="https://github.com/rameshsyn" class="icon"><i class="fa fa-github fa-4x"></i></a>
-      <a href="https://www.linkedin.com/in/rameshsyn" class="icon"><i class="fa fa-linkedin fa-4x"></i></a>
-    </div>
+</div>
+<!-- ========== CONTACT SECTION ======= -->
+<div class="contact" id="contact">
+  <h1 class="c-title">Stay in Touch !</h1>
+  <div class="container social-icons">
+    <a href="https://facebook.com/rameshsyn" class="icon"><i class="fa fa-facebook-official fa-4x"></i></a>
+    <a href="https://twitter.com/ramesh_syn" class="icon"><i class="fa fa-twitter fa-4x"></i></a>
+    <a href="https://github.com/rameshsyn" class="icon"><i class="fa fa-github fa-4x"></i></a>
+    <a href="https://www.linkedin.com/in/rameshsyn" class="icon"><i class="fa fa-linkedin fa-4x"></i></a>
   </div>
+</div>
 
 </main>
-<!-- ========= FOOTER SECTION ======== -->
-<footer>
-  <h3>Ramesh Syangtan &copy;  <span></span>. All rights reserved.</h3>
-</footer>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-<script src="js/index.js"></script>    
-</body>
-</html>

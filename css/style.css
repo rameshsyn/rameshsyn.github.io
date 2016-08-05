@@ -1,5 +1,5 @@
 html {
-  background: url(../img/bg.jpg) no-repeat fixed top;
+  background: url(../img/bg.jpg) #222 no-repeat fixed top;
   background-size: cover; }
 
 body,
@@ -17,7 +17,7 @@ main {
 
 /* Navbar */
 .navbar {
-  margin: 30px 0 0 0; }
+  margin: 30px 0; }
 
 .navbar-default {
   background: transparent;
@@ -74,6 +74,18 @@ main {
     margin: 10px 0 0;
     background: #333;
     border-radius: 10px; }
+
+/* Latest post */
+.latest-post {
+  background: #fff;
+  padding: 20px;
+  height: auto;
+  margin: 150px 0 0; }
+  .latest-post .ls-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 3px 3px #555; }
 
 /* Portfolio section */
 .portfolio {
@@ -154,13 +166,41 @@ main {
     text-align: center;
     text-shadow: 3px 3px gray; }
 
+/* Blog */
+.blog {
+  background: #fff;
+  padding: 30px 10px;
+  margin: 60px 0; }
+
+.post {
+  margin: 30px 0 60px; }
+  .post span {
+    padding: 10px; }
+  .post h1 a {
+    color: #000; }
+  .post h4 {
+    word-spacing: 7px;
+    line-height: 30px; }
+
+.post-preview {
+  height: auto;
+  padding: 20px;
+  margin: 30px 0; }
+  .post-preview span {
+    padding: 10px; }
+  .post-preview h1 a {
+    color: #000; }
+  .post-preview h4 {
+    word-spacing: 7px;
+    line-height: 30px; }
+
 /* Footer */
 footer {
   background: #333;
-  margin: 30px 0 -20px;
-  height: auto;
+  height: 100px;
   width: 100%;
-  padding: 10px; }
+  padding: 10px;
+  margin: 50px 0 0; }
   footer h3 {
     text-align: center;
     color: white; }
