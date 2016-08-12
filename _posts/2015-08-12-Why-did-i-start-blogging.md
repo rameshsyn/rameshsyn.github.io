@@ -14,7 +14,8 @@ problem following are the reasons why i started blogging.
 ### 1. Sharing is learning 
   > "The best part of learning is sharing what you know" - Vaughn K. Lauer.
   
-  Sharing is also helping and caring.
+  Sharing is also helping and caring.  
+  
 ### 2. Express myself
   one of the main problem in my life till now is , i never succeeded to answer question "who you are ?" and 
   I have left blank in about section  in my online accounts (LOL). As to indentify myself (who am i) , i have
