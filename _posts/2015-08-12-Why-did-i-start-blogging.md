@@ -1,3 +1,8 @@
+---
+layout: post
+category: me
+---
+
   During my school time, I wasn't good at essay, letter, paragraph and story writing. 
 Even though teacher taught me a way of writing an essay (Introduction, Body , Conclusion),
 i used to get lost on the way writing. Simply, i wasn't fluent on writing. 
