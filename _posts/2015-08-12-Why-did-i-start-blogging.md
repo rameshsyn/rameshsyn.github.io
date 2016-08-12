@@ -16,11 +16,14 @@ problem following are the reasons why i started blogging.
   
   Sharing is also helping and caring.  
   
-### 2. Express myself
+### 2. Express myself  
+
   one of the main problem in my life till now is , i never succeeded to answer question "who you are ?" and 
   I have left blank in about section  in my online accounts (LOL). As to indentify myself (who am i) , i have
-  to express myself. Blog is where i can express myself.
-### 3. Develop writing skill
+  to express myself. Blog is where i can express myself.  
+  
+### 3. Develop writing skill  
+
 Blogging is writing  
 
 
