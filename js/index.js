@@ -87,7 +87,7 @@ $(document).ready(function() {
     name: 'Local Weather Info',
     description: 'It shows current local weather based on latitude and longitude. It informs current temperature, weather, wind speed and so on......',
     thumbnail: 'weather-app.png',
-    link: 'https://codepen.io/rameshsyn/full/zrpXbg/',
+    link: 'http://codepen.io/rameshsyn/full/zrpXbg/',
     tools: [
     'openweather.org API',
     'ipinfo.io API',
