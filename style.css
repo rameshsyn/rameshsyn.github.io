@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background: url(bg.jpg) #444 no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  color: #ddd;
+}
+a {
+  text-decoration: none;
+  color: #dce023;
+}
+article {
+  padding: 10px 20%;
+  margin: 10% 0 2%;
+  font-size: 120%;
+  line-height: 1.6;
+  word-spacing: 5px;
+}
+article > div {
+  margin: 5% 0 0;
+  font-size: 130%;
+}
+section {
+  text-align: center;
+}
+
+section a {
+  margin: 5px;
+}

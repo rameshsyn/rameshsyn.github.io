@@ -1,54 +1,43 @@
----
-layout: default
----
-
-
-<main>
-  <!-- ========= HIGHLIGHT ========== -->
-  <div class="container">
-    <div class="highlight">
-      <h1>{{site.data.global.title}}</h1>
-      <h4>Coder | Teacher | Traveller</h4>
-    </div>
-  </div>
-  <!-- ======== LATEST POST ======== -->
-  <div class="latest-post">
-    <h1 class="ls-title">Latest post </h1>
-    <div class="container">
-      {% include latest-post.htm %}
-    </div>
-  </div>
-  
-  <!-- ========== PORTFOLIO SECTION ======= -->
-  <div class="portfolio" id="portfolio">
-    <h1 class="pf-head"> Projects </h1>
-    <div class="container pf"></div>
-  </div>
-  <!-- ========= ABOUT SECTION ======== -->
-  <div class="about">
-    <div class="container" id="about">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4" >
-         <img src="{{ site.data.global.author.profile_img }}" alt="{{site.data.global.author.name}}" class="img-responsive">
-       </div>
-       <div class="col-xs-12 col-sm-8 col-md-8 about-description"> 
-        <h4>
-          {{ site.data.global.author.about }}
-
-        </h4>
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Ramesh Syangtan</title>
+  <meta name="keywords" content="Ramesh syangtan, Ramesh , syangtan, rameshsyn, ramesh_syn, aryes">
+  <meta name="description" content="Ramesh Syangtan - Coder, Teacher, Blogger.  Welcome !">
+  <meta name="author" content="Ramesh syangtan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://rameshsyangtan.com.np">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-81431879-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body>
+  <main>
+    <article class="about">
+      Greeting! My name is Ramesh Syangtan.
+      I live in Bhaktapur, Nepal (Historical place of Nepal).
+      I am teacher, Coder and Blogger.
+      I'd love to travel new places, explore things of science
+      and technology, listening to music and Watching movies.
+      <div>
+        Check out my <a href="https://medium.com/@rameshsyn"> blog</a> and <a href="https://codepen.io/rameshsyn">projects</a>
       </div>
-    </div>
-  </div>
-</div>
-<!-- ========== CONTACT SECTION ======= -->
-<div class="contact" id="contact">
-  <h1 class="c-title">Stay in Touch !</h1>
-  <div class="container social-icons">
-    <a href="https://facebook.com/rameshsyn" class="icon"><i class="fa fa-facebook-official fa-4x"></i></a>
-    <a href="https://twitter.com/ramesh_syn" class="icon"><i class="fa fa-twitter fa-4x"></i></a>
-    <a href="https://github.com/rameshsyn" class="icon"><i class="fa fa-github fa-4x"></i></a>
-    <a href="https://www.linkedin.com/in/rameshsyn" class="icon"><i class="fa fa-linkedin fa-4x"></i></a>
-  </div>
-</div>
-
-</main>
+    </article>
+    <section>
+      <a href="https://facebook.com/rameshsyn" class="icon"><i class="fa fa-facebook-official fa-3x"></i></a>
+      <a href="https://twitter.com/ramesh_syn" class="icon"><i class="fa fa-twitter fa-3x"></i></a>
+      <a href="https://github.com/rameshsyn" class="icon"><i class="fa fa-github fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/rameshsyn" class="icon"><i class="fa fa-linkedin fa-3x"></i></a>
+      <a href="https://codepen.io/rameshsyn" class="icon"><i class="fa fa-codepen fa-3x"></i></a>
+    </section>
+  </main>
+</body>
+</html>
