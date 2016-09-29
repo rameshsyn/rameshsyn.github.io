@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 html {
-  background: url(bg.jpg) #444 no-repeat;
+  background: -webkit-linear-gradient(#444,#999,#dce023);
+  background: -o-linear-gradient(#444,#999,#dce023);
+  background: -moz-linear-gradient(#444,#999,#dce023);
+  background: linear-gradient(#444,#999,#dce023) no-repeat;
   background-size: cover;
   font-family: sans-serif;
   color: #ddd;
+  height: 100%;
 }
 a {
   text-decoration: none;
