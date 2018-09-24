@@ -1,0 +1,70 @@
+{
+  "name": "rameshsyn-personal-site",
+  "version": "1.0.0",
+  "description": "A personal website for Ramesh Syangtan",
+  "main": "index.js",
+  "repository": "https://github.com/rameshsyn/rameshsyn.github.io.git",
+  "author": "Ramesh Syangtan <rameshsyangtan92@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "@types/styled-components": "^3.0.1",
+    "gatsby": "^2.0.7",
+    "gatsby-plugin-typescript": "^2.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^3.4.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/jest": "^23.3.2",
+    "husky": "^1.0.0-rc.15",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "1.14.3",
+    "ts-jest": "^23.10.1",
+    "typescript": "^3.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js, tsx, jsx, json, css, md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/templates/",
+      "/.cache"
+    ]
+  }
+}
