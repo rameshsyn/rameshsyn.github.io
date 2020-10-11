@@ -5,13 +5,13 @@ module.exports = {
     description: 'A personal blog by Ramesh Syangtan',
     siteUrl: 'https://rameshsyangtan.com.np',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
+        path: `${__dirname}/content/blog`,
+        name: 'blog',
       },
     },
     {
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Ramesh Syangtan`,
+        short_name: `rameshsyn`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -59,12 +59,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
     'gatsby-plugin-netlify-cms',
   ],
 }
